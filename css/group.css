@@ -1,0 +1,52 @@
+.tuangouy {
+    overflow: auto;
+    width: 1003px;
+    margin: 10px auto;
+}
+
+.tuangouy ul li {
+    float: left;
+    width: 305px;
+    height: 330px;
+    background-color: #f5f3f3;
+    border: 1px #dedede solid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.margin10 {
+    margin: 0 10px;
+}
+
+.tuangouy-m {
+    color: #999;
+}
+
+.tuangouy-m a {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #000;
+}
+
+.tuangouy-m a:hover {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #F00;
+}
+
+.tuangouy-m span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #F30;
+    line-height: 45px;
+    font-family: "微软雅黑";
+}
+
+
+.tgfy {
+    text-align: center;
+    width: 1003px;
+    margin: 10px auto;
+}

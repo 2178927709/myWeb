@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*整个网页背景图片*/
+body {
+    margin: 0 0;
+    font-size: 12px;
+    font-family: Verdana;
+    line-height: 1.5;
+    background: url(../img/bg.jpg)0 0 repeat-x;
+    background-color: white;
+    _height: 100%;
+}
+
+.header {
+    margin-top: 15px;
+}
+
+.header .img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .img img {
+    margin: 0 80px;
+}
+
+.language {
+    width: 100%;
+    height: 35px;
+}
+
+
+/* 导航条部分*/
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: #0e2a48;
+}
+
+/* 消除a标签默认样式*/
+a {
+    text-decoration: none;
+    color: #101111ce;
+}
+
+/* 导航条部分*/
+.nav>ul {
+    margin-left: 350px;
+}
+
+.nav>ul>li {
+    height: 70px;
+    padding: 0 15px;
+    float: left;
+    list-style: none;
+}
+
+.nav>ul>li>a {
+    color: white;
+    line-height: 80px;
+    font-size: 20px;
+}
+
+.header>img {
+    float: left;
+    margin-left: 85px;
+}
