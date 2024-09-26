@@ -1,10 +1,7 @@
-// 使用 script 标签引入 jquery.js
+/
 var script = document.createElement('script');
-script.src = './js/luuuyutingRequest.js'; // 替换为实际的 jquery.js 文件路径
+script.src = './js/luuuyutingRequest.js'; 
 document.head.appendChild(script);
-
-
-
 
 
 
