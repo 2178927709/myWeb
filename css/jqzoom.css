@@ -46,9 +46,9 @@ div.jqZoomTitle {
 	background-repeat: no-repeat;
 	background-position: 43px 30px;
 	width: 90px;
-	* width: 100px;
+	*width: 100px;
 	height: 43px;
-	*height: 55 px;
+	*height: 55px;
 	z-index: 10;
 	position: absolute;
 	top: 3px;

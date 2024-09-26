@@ -1,14 +1,34 @@
-$(function(){
-	  $("#txtLoginNo").focus(function(){  // 输入账号的文本框获得鼠标焦点
-		var txt_value = $(this).val();   // 得到当前文本框的值
-		if(txt_value=="请输入6~12位账号"){  
-             $(this).val("");              // 如果符合条件，则清空文本框内容
-		} 
-	  });
-	  $("#txtLoginNo").blur(function(){// 文本框失去鼠标焦点
-	  	     var txt_value = $(this).val();   // 得到当前文本框的值
-		    if(txt_value==""){
-                $(this).val("请输入6~12位账号");// 如果符合条件，则设置内容
-		   } 
-	  });
+// 使用 script 标签引入 jquery.js
+var script = document.createElement('script');
+script.src = './js/luuuyutingRequest.js'; // 替换为实际的 jquery.js 文件路径
+document.head.appendChild(script);
+
+
+
+
+
+
+// 获取密码输入框的值
+
+console.log('密码：', passwordValue);
+
+btn.onclick = function () {
+	console.log("按钮点击")
+	const btn = document.getElementById("button")
+	const loginNameInput = document.getElementById('txtLoginNo');
+	const loginNameValue = loginNameInput.value;
+	const passwordInput = document.getElementById('txtPwd');
+	// 获取密码输入框的值并声明变量
+	const passwordValue = passwordInput.value;
+
+	const requestInstance = new luuuyutingRequest();
+
+	requestInstance.post({
+		username: loginNameValue,
+		password: passwordValue
+	}).then((res) => {
+		console.log(res);
+	}).catch((err) => {
+		console.error(err);
 	});
+}

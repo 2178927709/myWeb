@@ -1,29 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed304c00-6e68-4b12-82cd-a8c5c634a663" name="更改" comment="" />
+    <list default="true" id="ed304c00-6e68-4b12-82cd-a8c5c634a663" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jqzoom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jqzoom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group.html" beforeDir="false" afterPath="$PROJECT_DIR$/group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tg02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mEhXsfGHqu3mEKgifgPOtlOFfo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/86199/Desktop/visitxm",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/86199/Desktop/visitxm&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +56,10 @@
       <option name="presentableId" value="Default" />
       <updated>1726647686546</updated>
       <workItem from="1726647687373" duration="22000" />
+      <workItem from="1727247119125" duration="33000" />
+      <workItem from="1727247185488" duration="15000" />
+      <workItem from="1727247371879" duration="40000" />
+      <workItem from="1727247420253" duration="180000" />
     </task>
     <servers />
   </component>
